@@ -13,14 +13,12 @@
  body {
  max-width: 1440px;
  margin: 0 auto;
+ height: 40rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  }
 
- body {
-    height: 40rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 div {
     height: 10rem;
