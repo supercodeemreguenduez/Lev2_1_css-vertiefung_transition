@@ -1,0 +1,54 @@
+/* === GENERAL === */
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+ html {
+ font-size: 100%;
+ }
+  
+ body {
+ max-width: 1440px;
+ margin: 0 auto;
+ }
+
+ body {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 10rem;
+    width: 10rem;
+    background: tomato;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+div:hover {
+    transform: rotate(90deg) scale(1.7) translatex(150px);
+    transition: all 1s;
+}
+  
+ /* wrapper {
+ margin: 0 auto;
+ }
+  
+ /* ====== BODY ====== */
+  
+ /* ====== HEADER ====== */
+  
+ /* ====== MAIN ====== */
+  
+ /* ====== FOOTER ====== */
+  
+ /* =========================================================================
+                            MEDIA QUERIES
+ =========================================================================*/
+  
+ 
